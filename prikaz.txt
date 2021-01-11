@@ -1,0 +1,26 @@
+====== GIT prikazy ======
+Created pondelok 11 január 2021
+
+
+**git init ** = inicializuje zlozku v ktorej sme nastaveny 
+**git status**  = zobrazi stav suborov v zlozke
+**git log** = zobrazi vsetky subory a ich zmeny
+**git add** **XXX.XX** = oznaci subor v novej verzii pre pridanie do gitu
+**git add *.png** = oznaci vsetky subory s priponou .png
+**git add .**  = oznaci vsetky subor 
+**git restore ==staged XXX.XX** = odstrani subor z rezervoara
+**git restore ==staged .** = odstrani vsetky subory z rezervoara
+**git commit**  **-m** "**XXX"** = zapise subor s komentarom XXX
+**git commit -am "XXX"** = zapise vsetky subory s komentarom XXX
+**git checkout — XXX.XX** = vrati predchadzajuci stav suboru
+**git checkout master** = vrati sa na hlavnu vetvu
+**git clone https://github.com........ projekty** = nakopiruje subor z https://[[github.com........ do zlozky projekty
+**git push origin (master)** = posle na github code (master vetvy)
+**git pull origin (master)** = stiahne z origin (github) code (master vetvy)
+**git whatchanged origin/master -n l** = zobrazi zmeny v master vetve
+**git branch** = zobrazi vsetky vetvy
+**git branch -vv** = zobrazi podrobny vipis vetiev
+**git branch xxx** = vytvori vetvu s nazvom xxx
+**git checkout xxx** = prehodi sa do vetvy xxx
+**git merge xxx** = zluci aktualnu vetvu s vetvou xxx
+
